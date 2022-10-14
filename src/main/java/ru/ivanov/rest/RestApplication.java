@@ -19,6 +19,6 @@ public class RestApplication {
 		result += communication.updateUser(new User(3L, "Thomas", "Shelby", (byte) 50));
 		result += communication.deleteUser(3L);
 
-		System.out.println(result);
+		System.out.println(result + ", size = " + result.length());
 	}
 }
